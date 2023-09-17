@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#08172b, #060e1dfc, #08172b);
+}
+
+.navbar {
+  background-color: #08172b;
+  border: #08172b;
+  border-bottom-left-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+}
+
+
+/* footer */
+.footer {
+  background: linear-gradient(#ffffffcb, #293d56);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.text-shadow-1 {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.container > h2,
+.marketing > h2 {
+  text-align: center !important;
+}
+
+/* test decoration */
+
+.text {
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+
+.textbold {
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    #03cdc3e0,
+    rgb(226, 114, 133),
+    white
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.textclient {
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* background: linear-gradient(
+    to left,
+    rgb(195, 255, 0),
+    #03cdc3e0,
+    rgb(22, 128, 209)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
